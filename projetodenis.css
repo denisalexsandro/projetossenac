@@ -1,0 +1,21 @@
+body {
+
+    background-image: url(fundotela.jpg);
+    color: white;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    margin-left: -20px;
+}
