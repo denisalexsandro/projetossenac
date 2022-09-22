@@ -15,7 +15,44 @@ a {
 }
 li {
     list-style: none;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    margin-left: -20px;
+    margin: 30px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.topo {
+    box-shadow: 50px 0 0 0 #255, -50px 0 0 0 #255;
+    background: #255;
+    padding: 10px 0 !important;
+    position: relative;
+}
+.meunome {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.paragrafo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 25px;
+    text-indent: 30px;
+}
+.minhafoto {
+
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 510px;
+    margin-top: 60px;
+    border-style: dotted;
+    margin-bottom: 20px;
+}
+.marca {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
 }

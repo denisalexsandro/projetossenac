@@ -1,41 +1,35 @@
 body {
-
     text-align: center;
     align-items: center;
     background-image: url(fundotela.jpg);
     margin-top: 100px;
 }
-.sobremim {
-    color: white;
-}
-.sobre {
-
-    margin-top: 80px;
-}
 h3 {
-
+    color: white;
     font-size: 35px;
-
 }
-p {
+.hob {
 
+color: white;
+font-size: 25px;
+text-indent: 30px;
+margin-top: 80px;
+}
+.segundo {
+
+    color: white;
     font-size: 25px;
     text-indent: 30px;
 }
+.terceiro {
 
-.para {
+    color: white;
     font-size: 25px;
     text-indent: 30px;
-}
-.ultimo {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
 }
 .marca {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
-    font-size: 10px;
+    margin-top: 20px;
     color: white;
 }
