@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
     text-align: center;
     align-items: center;
@@ -35,4 +37,7 @@ a {
     margin-top: 150px;
 
     color: white;
+}
+.formulario:hover {
+    color: greenyellow;
 }

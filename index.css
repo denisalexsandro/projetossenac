@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
 
     background-image: url(fundotela.jpg);
@@ -22,37 +24,37 @@ li {
     font-size: 20px;
 }
 .topo {
-    box-shadow: 50px 0 0 0 #255, -50px 0 0 0 #255;
+    box-shadow: 30px 0 0 0 #255, -30px 0 0 0 #255;
     background: #255;
-    padding: 10px 0 !important;
+    padding: 7px 0 !important;
     position: relative;
+    border-radius: 50px
 }
 .meunome {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 35px;
     margin-top: 70px;
 }
 .paragrafo {
-
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 25px;
     text-indent: 30px;
 }
 .minhafoto {
-
-    border-radius: 50%;
+    margin-left: 517px;
+    margin-bottom: 13px;
     width: 300px;
-    margin-left: 510px;
-    margin-top: 60px;
-    border-style: dotted;
-    margin-bottom: 20px;
+    border-radius: 50%;
+    border: double 15px #255
 }
 .marca {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 20px;
     color: white;
 }
+.sobre:hover {
+    color: greenyellow;
+}
+
